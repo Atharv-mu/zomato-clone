@@ -1,29 +1,56 @@
-## Overview
+# Zomato Clone
 
-This project contains a minimal landing page with:
-- a branded red header
-- a "ZOMATO" logo label
-- a "Get App" link
-- a clean, responsive static layout
+A small front-end practice project that recreates the header of the Zomato landing page using plain HTML and CSS.
+
+## About
+
+This project is the starting point of a Zomato-style website. At the moment it contains a single landing page with a red header, the "ZOMATO" brand name on the left, and a "Get App" link on the right. The link opens `app.html` in a new tab.
+
+I built it to practise page structure, basic layout, and styling without relying on any framework.
+
+## Built With
+
+- HTML5
+- CSS3
+
+There are no dependencies and no build step.
 
 ## Project Structure
 
-- `home.html` — main page structure
-- `home.css` — styling for the page
-- `app.html` — linked destination for the "Get App" navigation
-- `zomato logo.png` — branding asset used in the project
+```
+zomato-clone/
+├── home.html         Landing page
+├── home.css          Styles for the landing page
+├── app.html          Page opened by the "Get App" link
+├── zomato logo.png   Logo image
+└── README.md
+```
 
-## Features
+## Running Locally
 
-- Static HTML/CSS implementation
-- Lightweight and easy to run locally
-- No framework or package installation required
+Clone the repository and open `home.html` in your browser.
 
-## Running the Project
-
-Because this is a static site, you can open `home.html` directly in a browser.
-
-Alternatively, run a local server from the repository root:
+If you prefer to use a local server, run this from the project folder:
 
 ```bash
 python -m http.server 8000
+```
+
+Then go to `http://localhost:8000/home.html`.
+
+## Current Status
+
+This is an early version. The header is complete, but the rest of the page is still to be built. `app.html` is currently empty, and the logo image has not yet been added to the header.
+
+## Planned Improvements
+
+- Add content to the "Get App" page
+- Use the logo image in the header
+- Add a hero section with a search bar
+- Add restaurant and category cards
+- Make the layout responsive for mobile screens
+- Add a footer
+
+## Disclaimer
+
+This project is for learning purposes only. It is not affiliated with or endorsed by Zomato, and all brand names and logos belong to their respective owners.
